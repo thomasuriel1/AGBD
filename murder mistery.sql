@@ -1,4 +1,5 @@
-SELECT * FROM crime_scene_report WHERE type = "murder" AND date = "20180115" AND city = "SQL City";
+SELECT * FROM crime_scene_report 
+WHERE type = "murder" AND date = "20180115" AND city = "SQL City";
 
 -- Security footage shows that there were 2 witnesses. 
 -- The first witness lives at the last house on "Northwestern Dr". 
