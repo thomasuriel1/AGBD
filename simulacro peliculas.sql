@@ -7,4 +7,6 @@
    ORDER BY rental_rate DESC, title ASC;
 4- SELECT city, co.country FROM city c JOIN country co ON c.country_id
    GROUP BY country;
-5- 
+5- SELECT city as ciudad,COUNT(*) AS ciudades, co.country as pais FROM city c JOIN country co ON c.country_id = co.country_id
+   GROUP BY country
+   ORDER BY ciudades DESC;
