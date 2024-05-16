@@ -1,0 +1,1 @@
+SELECT name, p.id, car_make, car_model, plate_number FROM person p JOIN drivers_license d ON p.license_id = d.id
